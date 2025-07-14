@@ -631,6 +631,13 @@ body {
   border-radius: 50%;
 }
 
+.status-dot.blue {
+  width: 10px;
+  height: 10px;
+  background: #4986f8;
+  border-radius: 50%;
+}
+
 .trend-stars {
   display: flex;
   align-items: center;
