@@ -462,12 +462,12 @@ body {
 .trend-card-header section > div {
   display: flex;
   align-items: center;
-  gap: 8px; /* Optional: for spacing between icon and text */
+  gap: 8px; 
 }
 
 .trend-card-header section h3 {
-  margin: 0; /* Ensure no vertical stacking from margin */
-  font-size: 14px; /* Match existing text size */
+  margin: 0;
+  font-size: 14px; 
 }
 
 .trend-header-left {
@@ -498,9 +498,8 @@ body {
 
 .trend-user-info {
   display: flex;
-  justify-content: space-between; /* NEW */
+  justify-content: space-between; 
   align-items: center;
-  /* width: 100%; */
   margin-top: 12px;
   gap:16px;
 }
