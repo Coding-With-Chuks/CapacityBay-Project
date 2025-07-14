@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Dashboard Clone</title>
+  <link rel="stylesheet" href="Style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="menu-icon" title="Menu"><i class="fas fa-bars"></i></a>
+    <a href="#" class="logo"><i class="fab fa-github"></i> Dashboard</a>
+
+    <div class="topbar-right">
+      <div class="search-wrapper">
+        <input type="text" class="search-bar" placeholder="Type / to search" />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="nav-actions">
+        <div class="dropdown-wrapper">
+          <div class="icon-section">
+            <a href="#" title="Create"><i class="fas fa-plus"></i></a>
+          </div>
+          <div class="dropdown-section">
+            <a href="#"><i class="fas fa-caret-down"></i></a>
+          </div>
+        </div>
+
+        <div class="dropdown-icon-combo">
+          <a href="#" title="Branch"><i class="fas fa-code-branch"></i></a>
+          <a href="#"><i class="fas fa-caret-down"></i></a>
+        </div>
+
+        <a href="#" class="square-icon" title="Notifications"><i class="fas fa-bell"></i></a>
+        <a href="#" class="square-icon" title="Inbox"><i class="fas fa-envelope"></i></a>
+        <a href="#" class="square-icon" title="Help"><i class="fas fa-question-circle"></i></a>
+        <a href="#" class="square-icon avatar" title="Profile"><i class="fas fa-user-circle"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="username">
+        <i class="fas fa-user"></i>
+        Yusufjenom
+        <i class="fas fa-caret-down"></i>
+        <div class="username-dropdown">
+          <a href="#">Your profile</a>
+          <a href="#">Settings</a>
+          <a href="#">Sign out</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <div class="section-title">Top repositories</div>
+          <button class="green-btn">New</button>
+        </div>
+        <input type="text" placeholder="Find a repository..." class="input-box">
+        <ul class="repo-list">
+          <li><i class="fas fa-book"></i> Redbiller/web-app</li>
+          <li><i class="fas fa-code"></i> Yusufjenom/Redbiller2.0</li>
+          <li><i class="fas fa-database"></i> Riverscope-Engineering/rto-api</li>
+          <li><i class="fas fa-school"></i> capacitybay/holy-child-school-portal</li>
+          <li><i class="fas fa-bolt"></i> Yusufjenom/yus_version_domtrade</li>
+          <li><i class="fas fa-piggy-bank"></i> Beamer-Bank/beamer-bank-website</li>
+          <li><i class="fas fa-project-diagram"></i> Redbiller/redbiller-web-proxy</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Your teams</div>
+        <input type="text" placeholder="Find a team..." class="input-box">
+        <ul class="team-list">
+          <li><i class="fas fa-users"></i> CapacityBay-Inc/backend-team</li>
+          <li><i class="fas fa-users"></i> CapacityBay-Inc/frontend-team</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="left-main">
+        <div class="main-header">
+          <h2>Home</h2>
+          <div class="copilot-box">
+            Ask Copilot
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div class="suggestions">
+          <button><i class="fas fa-bug"></i> Create an issue for a bug</button>
+          <button><i class="fas fa-gamepad"></i> Make a Pong game</button>
+          <button><i class="fas fa-comment-dots"></i> Get code feedback</button>
+        </div>
+
+        <section class="feed">
+  <div class="feed-header">
+    <h3>Feed</h3>
+    <button class="filter-btn">
+      <i class="fas fa-caret-down"></i> Filter
+    </button>
+  </div>
+
+  <div class="feed-card">
+  <div class="feed-top-row">
+    <div class="feed-top-left">
+      <img src="https://avatars.githubusercontent.com/u/000?v=4" alt="avatar" class="repo-avatar">
+      <div class="feed-activity">
+        <span class="feed-activity-text">
+          <strong>zangassis</strong> made this repository public
+        </span>
+        <span class="timestamp">2 weeks ago</span>
+      </div>
+    </div>
+    <div class="feed-options">
+      <i class="fas fa-ellipsis-h"></i>
+    </div>
+  </div>
+
+
+  <!-- Container: avatar + repo name + star button on same line, status below -->
+  <div class="feed-repo-container">
+    <div class="feed-repo-top">
+      <div class="feed-repo-left">
+        <img src="https://avatars.githubusercontent.com/u/000?v=4" alt="avatar" class="repo-details-avatar">
+        <span class="repo-details-name">zangassis/sub-track</span>
+      </div>
+      <button class="star-btn">
+        <i class="fas fa-star"></i>
+        Star
+        <i class="fas fa-caret-down"></i>
+      </button>
+    </div>
+    <div class="repo-details-bottom">
+      <span class="status-dot"></span>
+      <span class="language-tag">C#</span>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+        
+        <!-- <h3>Trending repositories · <a href="#">See more</a></h3>
+              <strong>jackjackbits/bitchat</strong>
+              <p>bluetooth mesh chat, IRC vibes</p>
+              <span class="tag">Swift</span> -->
+              
+    <div class="trend-card">
+  <!-- TOP CONTAINER -->
+  <div class="trend-card-header">
+    <div class="trend-header-left">
+      <section>
+        <div class="trend-title-row">
+  <div class="trend-title-left">
+    <i class="fa-solid fa-chart-line"></i>
+    <span class="trend-heading">
+      Trending repositories · <a href="#">See more</a>
+    </span>
+  </div>
+  <div class="trend-ellipsis">
+    <i class="fas fa-ellipsis-h"></i>
+  </div>
+</div>
+
+<div class="trend-user-info">
+  <div class="trend-user-left">
+    <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="profile" class="trend-avatar" />
+    <strong class="trend-username">jackjackbits/bitchat</strong>
+  </div>
+  <button class="star-btn">
+    <i class="fas fa-star"></i>
+    Star
+    <i class="fas fa-caret-down"></i>
+  </button>
+</div>
+
+<p class="trend-description-text">bluetooth mesh chat, IRC vibes</p>
+
+<div class="trend-meta-row">
+  <span class="status-dot red"></span>
+  <span class="tag">Swift</span>
+  <span class="trend-stars">
+    <i class="fas fa-star"></i> 11K
+  </span>
+</div>
+
+
+      </section>
+    </div>
+  </div>
+
+
+
+      <div class="trend-card-body">
+        <div class="trend-row-top">
+          <i class="fas fa-book"></i>
+          <span class="trend-repo">bytedance/trae-agent</span>
+          <button class="star-btn">
+            <i class="fas fa-star"></i>
+            Star
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+
+        <div class="trend-description">
+          Trae Agent is an LLM-based agent for general purpose software engineering
+        </div>
+
+        <div class="trend-row-bottom">
+          <span class="status-dot red"></span>
+          <span class="language-tag">Python</span>
+          <span class="trend-stars">
+            <i class="fas fa-star"></i> 6k
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+        </section>
+      </div>
+
+      <aside class="right-container">
+        <div class="changelog-container">
+          <h4>Latest changes</h4>
+          <ul>
+            <li><strong>2 hours ago</strong><br>Delegate tasks to Copilot coding agent from the...</li>
+            <li><strong>6 hours ago</strong><br>Copilot agent now supports remote MCP...</li>
+            <li><strong>Yesterday</strong><br>Dependency auto-submission now supports...</li>
+            <li><strong>Yesterday</strong><br>Improved repository creation experience...</li>
+          </ul>
+          <a href="#">View changelog →</a>
+        </div>
+      </aside>
+    </main>
+  </div>
+</body>
+</html>
