@@ -104,8 +104,13 @@ body {
   font-weight: 500;
 }
 
+.green-btn i {
+  margin-right: 6px;
+}
+
+
 .green-btn:hover {
-  background-color: #2c974b;
+  background-color: #44c067;
 }
 
 .input-box {
